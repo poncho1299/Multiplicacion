@@ -14,9 +14,9 @@ public class MainMultiplicacion {
         y = op.nextInt();
 
         Multiplicacion evaluar = new Multiplicacion();
-        evaluar.x = x;
-        evaluar.y = y;
-        evaluar.mostrarResultado();
+        evaluar.setX(x);
+        evaluar.setY(y);
+        System.out.println("EL RESULTADO DE LA MULTIPLICACION ES: "+evaluar.mostrarResultado());
     }
 
 }
